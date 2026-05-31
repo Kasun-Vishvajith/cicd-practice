@@ -1,0 +1,24 @@
+{
+  "name": "cicd-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kasun-Vishvajith/cicd-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kasun-Vishvajith/cicd-practice/issues"
+  },
+  "homepage": "https://github.com/Kasun-Vishvajith/cicd-practice#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
