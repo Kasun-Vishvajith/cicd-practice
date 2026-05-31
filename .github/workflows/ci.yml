@@ -1,16 +1,17 @@
-name: CI Pipeline
-on:[push]
+name: CI Pipeline # name shown in GitHub UI
+
+on: [push] # trigger: run on every push
 
 jobs:
-  hello:
-    runs-on:ubuntu-latest
+  hello: # job ID (you choose the name)
+    runs-on: ubuntu-latest # runner: use a free Ubuntu machine
 
     steps:
       - name: Say hello
-        run: echo "Hello from Github Actions!"
+        run: echo "Hello from GitHub Actions!"
 
-      - name: show current directory
+      - name: Show current directory
         run: pwd
 
-      - name: list files
+      - name: List files
         run: ls -la
